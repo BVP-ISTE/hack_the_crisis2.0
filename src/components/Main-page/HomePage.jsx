@@ -156,7 +156,7 @@ export default function HomePage(props) {
 
         {/* ********Judges here ***** */}
 
-        <h1 id="team">Judges</h1>
+        {/* <h1 id="team">Judges</h1>
         {FOOTER.JOIN_TEAM.required && (
           <JoinTeam
             placeholder="Join our team"
@@ -164,7 +164,7 @@ export default function HomePage(props) {
             content="Interested in being judge"
           />
         )}
-        {JudgesInfo.map(TeamMembers)}
+        {JudgesInfo.map(TeamMembers)} */}
         {/* ********Team ending here ***** */}
       </Container>
       <Footer />

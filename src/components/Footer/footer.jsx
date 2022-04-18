@@ -55,11 +55,6 @@ export default function Footer() {
             </a>
           </div>
           <div className="social-icon">
-            <a rel="noreferrer" target="_blank" href={SOCIALS.discord}>
-              <img src={Dis} alt="" />
-            </a>
-          </div>
-          <div className="social-icon">
             <a rel="noreferrer" target="_blank" href={SOCIALS.linkedin}>
               <img src={Linked} alt="" />
             </a>
@@ -74,21 +69,21 @@ export default function Footer() {
               <img src={Twitter} alt="" />
             </a>
           </div>
-          <div className="social-icon">
+          {/* <div className="social-icon">
             <a rel="noreferrer" target="_blank" href={SOCIALS.devpost}>
               <img src={DevPost} alt="" />
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="Register_a">
           <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
             <Btn type="Register" overlay="Fill the form" />
           </a>
-          {FOOTER.VOLUNTEERING_FORM.required && (
+          {/* {FOOTER.VOLUNTEERING_FORM.required && (
             <a href={FOOTER.VOLUNTEERING_FORM.src}>
               <Btn type="Volunteer" class="Volunteer" overlay="Fill the form" />
             </a>
-          )}
+          )} */}
         </div>
         <div className="footer_info">
           <p>
@@ -98,7 +93,7 @@ export default function Footer() {
             </a>{" "}
           </p>
 
-          {FOOTER.Privacy_policy.required && (
+          {/* {FOOTER.Privacy_policy.required && (
             <a
               href={PrivacyPolicy}
               download
@@ -117,12 +112,12 @@ export default function Footer() {
             >
               <p>Terms of Use</p>
             </a>
-          )}
-          <p>Made with ❤️</p>
+          )} */}
+          {/* <p>Made with ❤️</p> */}
         </div>
-        {template && viewTemplate && (
+        {/* {template && viewTemplate && (
           <GithubTemplate hideTemplate={() => setViewTemplate(false)} />
-        )}
+        )} */}
       </div>
     </div>
   );
